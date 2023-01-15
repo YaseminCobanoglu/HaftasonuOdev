@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MovieClub</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+</head>
+
+<body style="background-image: url('https://media.istockphoto.com/id/1183953130/tr/vekt%C3%B6r/yumu%C5%9Fak-renk-ge%C3%A7i%C5%9Fi-soyut-modern-gri-degrade-arka-plan.jpg?s=612x612&w=0&k=20&c=-ZI3A_279aOuGAIzpwbSMuAJ_cGhFDX5tArUcTlZdKo='); background-repeat: no-repeat; background-size: cover; ">
+    <style>
+        .resimKapsayici {
+            position: relative
+        }
+
+        .resimYazisi {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+    <div >
+        <!--NAVBAR-->
+        <div class="col-md-12" style=" height:auto">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example" style="height:80px">
+                <div class="container-fluid">
+                    <div class="col-md-2">
+                        <a class="navbar-brand" href="index.html" style="font-size:30px">Movie Club</a>
+                    </div>
+                    <div class="col-md-10">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <button type="button" class="btn btn-outline-light" onclick="window.location.href='index.html'" style="float:right; margin-right:24px; height:50px"><h3>Üye Ol</h3></button>
+                        <button type="button" class="btn btn-outline-light" onclick="window.location.href='index.html'" style="float: right; margin-right: 24px; height: 50px "><h3>Giriş Yap</h3></button>
+                        <form role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search" style="float:right; width:300px; margin-right:48px; margin-top:8px;margin-bottom:auto">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!--HEADER-->
+            <div class="container">
+                <header class="d-flex justify-content-center py-3">
+                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <button type="button" class="btn btn-outline-dark" onclick="window.location.href='filmler.html'"><h3>Filmler</h3></button>
+                        <button type="button" class="btn btn-outline-dark" onclick="window.location.href='salonlar.html'"><h3>Salonlar</h3></button>
+                        <button type="button" class="btn btn-outline-dark" onclick="window.location.href='index.html'"><h3>Fragmanlar</h3></button>
+                        <button type="button" class="btn btn-outline-dark" onclick="window.location.href='index.html'"><h3>Keşfet</h3></button>
+                    </div>
+                </header>
+            </div>
+
+                <!--HERO-->
+                <div class="px-4 pt-2 pb-5 my-5 text-center">
+                    <h1 class="display-5 fw-bold" style="font-family:'Times New Roman'">Movie Club</h1>
+                    <div class="col-lg-6 mx-auto">
+                        <p class="lead mb-4">It's only several minutes from here to the Cinema'</p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                            <button type="button" class="btn btn-outline-dark btn-lg px-4 gap-3"><Önceki</button>
+                            <button type="button" class="btn btn-outline-dark btn-lg px-4 gap-3">Sonraki></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- MOVIES-->
+                <center>
+                    <div class="col-md-12">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <div class="col-md-3" style="float:left;">
+                                <div class="card" style="height: 600px">
+                                    <img src="https://media.paribucineverse.com/h/367//files/movie_posters/HO00005497_638048142804242379_avatar-suyun-yolu.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Jake Sully lives with his newfound family formed on the extrasolar moon Pandora.</p>
+                                    </div>
+                                </div>
+                                <div class="card-footer  d-grid gap-2">
+                                    <a href="#" class="btn btn-outline-dark btn-lg">Bilet Al</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3" style="float: left;">
+                                <div class="card" style="height: 600px">
+                                    <img src="https://media.paribucineverse.com/h/367//files/movie_posters/HO00005556_638084431598599766_servet-operasyonu.png" class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                        <p class="card-text">Dünyayı tehdit edecek düzeyde ölümcül bir silahı ortadan kaldırmak için milyarder bir silah tüccarı peşine düşülür.</p>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-grid gap-2">
+                                    <a href="#" class="btn btn-outline-dark btn-lg">Bilet Al</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3" style="float: left;">
+                                <div class="card" style="height: 600px">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxsHnYRX25z81vE35CNmoqp6o70IWopFsJ0g&usqp=CAU" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Serinin yeni filmi, başına koyulan ödülle, kiralık katillere karşı savaşan John Wick'in özgürlüğünü elde etmek için Yüksek Şura'ya karşı mücadelesini anlatacak.</p>
+                                    </div>
+                                </div>
+                                <div class="card-footer  d-grid gap-2">
+                                    <a href="#" class="btn btn-outline-dark btn-lg">Bilet Al</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3" style="float: right; ">
+                                <div class="card" style="height: 600px">
+                                    <img src="https://media.paribucineverse.com/h/367//files/movie_posters/HO00005501_638049854167544454_bugday-tanesi.png" class="card-img-top" alt="...">
+                                    <div class="card-body  d-grid gap-2">
+                                        <p class="card-text"> Yaşadığı haksızlıklara ve ötekileştirilmeye karşın mücadele eden milletvekili Serkan Bayram'ın hayatından esinleniyor.</p>
+                                    </div>
+                                </div>
+                                <div class="card-footer  d-grid gap-2">
+                                    <a href="#" class="btn btn-outline-dark btn-lg">Bilet Al</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </center>
+        </div>
+        <!--FOOOTER-->
+        <div class="col-md-12" style="float:left">
+
+            <div class="container pt-5">
+                <hr />
+                <p style="float:left">
+                    2023 Movie Club Copyright
+                </p>
+
+                <p style="float:right">
+                    Her hakkı saklıdır.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

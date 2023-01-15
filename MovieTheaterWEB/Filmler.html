@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Filmler</title>
+    <link href="bootstrap.css" rel="stylesheet" />
+</head>
+<body style ="background-image: url('https://media.istockphoto.com/id/1183953130/tr/vekt%C3%B6r/yumu%C5%9Fak-renk-ge%C3%A7i%C5%9Fi-soyut-modern-gri-degrade-arka-plan.jpg?s=612x612&w=0&k=20&c=-ZI3A_279aOuGAIzpwbSMuAJ_cGhFDX5tArUcTlZdKo='); background-repeat: no-repeat; background-size: cover; ">
+    <style>
+        .resimKapsayici {
+            position: relative
+        }
+
+        .resimYazisi {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+    <!--NAVBAR-->
+    <div class="col-md-12" style=" height:auto">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example" style="height:80px">
+            <div class="container-fluid">
+                <div class="col-md-2">
+                    <a class="navbar-brand" href="index.html" style="font-size:30px">Movie Club</a>
+                </div>
+                <div class="col-md-10">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <button type="button" class="btn btn-outline-light" onclick="window.location.href='index.html'" style="float:right; margin-right:24px; height:50px"><h3>Üye Ol</h3></button>
+                    <button type="button" class="btn btn-outline-light" onclick="window.location.href='index.html'" style="float: right; margin-right: 24px; height: 50px "><h3>Giriş Yap</h3></button>
+                    <form role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" style="float:right; width:300px; margin-right:48px; margin-top:8px;margin-bottom:auto">
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--HEADER-->
+        <!--Menü-->
+        <hr />
+        <div class="col-md-2" style="float:right; height:900px;">
+            <center>
+                <ul class="nav flex-column">
+                    <li class="nav-item" style="margin-bottom:12px">
+                        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                            <button type="button" class="btn btn-outline-dark"  onclick="window.location.href='filmler.html'">Filmler</button>
+                            <button type="button" class="btn btn-outline-dark">Salonlar</button>
+                            <button type="button" class="btn btn-outline-dark">Fragmanlar</button>
+                            <button type="button" class="btn btn-outline-dark">Keşfet</button>
+
+
+                        </div>
+                    <li class="nav-item" style="margin-bottom:15px">
+
+                    </li>
+                </ul>
+            </center>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://img03.imgsinemalar.com/images/afis_buyuk/j/john-wick-bolum-4-1660927212.jpg" class="img-fluid rounded-start" alt="...">
+
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">John Wick: Bölüm 4</h5>
+                        <p class="card-text">Film, köpeğinin öldürülmesi üzerine yeniden yeraltı dünyasına karışan eski bir suikastçının maceralarının anlatıldığı John Wick filminin dördüncü devam halkasıdır. John Wick karakterine hayat veren Keanu Reeves, dördüncü devam halkası için bir kez daha kamera karşısında.</p>
+                        <p class="card-text"><small class="text-muted">Vision Date: 23 March 2023 </small></p>
+                        <button type="button" class="btn btn-secondary">Ön İzleme</button>
+                        <button type="button" style="float:above;" class="btn btn-outline-dark">Bilet Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/tr/thumb/6/63/Avatar_The_Way_of_Water_%28film%2C_2022%29.jpg/220px-Avatar_The_Way_of_Water_%28film%2C_2022%29.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Avatar: Suyun Yolu</h5>
+                        <p class="card-text">ake Sully ve Neytiri bir aile kurarlar ve birlikte kalmak için ellerinden geleni yapmaktadırlar. Ancak, eski bir tehdit başladığı işi bitirmek için geri döndüğünde, evlerini terk etmek ve Pandora'nın farklı bölgelerini keşfetmek zorunda kalırlar.</p>
+                        <p class="card-text"><small class="text-muted">Vision Date: 16 December 2022</small></p>
+                        <button type="button" class="btn btn-secondary">Ön İzleme</button>
+                        <button type="button" style="float:above;" class="btn btn-outline-dark">Bilet Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQdOsIcJeUGFBcyy9k40oKfJp9Bvr1_cxTRQoaGFj2LshzcP3JDfvsefdh-5N1lIon1" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Servet Operasyonu</h5>
+                        <p class="card-text">Guy Ritchie ile Jason Statham'ı bir kez daha bir araya getiren Operation Fortune: Ruse de guerre, dünyayı tehdit edecek düzeyde ölümcül bir silahı ortadan kaldırmak için milyarder bir silah tüccarının peşine düşen MI6 ajanı Orson Fortune ve ekibinin hikâyesini anlatıyor.</p>
+                        <p class="card-text"><small class="text-muted">Vision Date: 3 January 2023</small></p>
+                        <button type="button" class="btn btn-secondary">Ön İzleme</button>
+                        <button type="button" style="float:above;" class="btn btn-outline-dark">Bilet Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://www.filmarasidergisi.com/wp-content/uploads/2022/10/women-talking.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Women Talking</h5>
+                        <p class="card-text">Kadınların tutsak gibi yaşadığı dindar bir koloniyi odağına alıyor. Kadınların dinlerine dair inancı ve umudu, kolonilerindeki erkekler tarafından uğradıkları cinsel saldırılar nedeniyle yıkılmaya başlayacaktır..</p>
+                        <p class="card-text"><small class="text-muted">Vision Date: 17 March 2023 </small></p>
+                        <button type="button" class="btn btn-secondary">Ön İzleme</button>
+                        <button type="button" style="float:above;" class="btn btn-outline-dark">Bilet Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://www.filmarasidergisi.com/wp-content/uploads/2022/10/1004291.jpg-r_1920_1080-f_jpg-q_x-xxyxx-768x1024.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Aquaman ve Kayıp Krallık</h5>
+                        <p class="card-text">
+                            Aquaman’in 2. devam filmi olan yapımın başrolünü ilk filmde olduğu gibi Jason Momoa üstleniyor. Filmin kadrosunda ayrıca Amber Heard, Yayha Abdul-Mateen gibi isimler yer alıyor.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Vision Date: 29 December 2023 </small></p>
+                        <button type="button" class="btn btn-secondary">Ön İzleme</button>
+                        <button type="button" style="float:above;" class="btn btn-outline-dark">Bilet Al</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
